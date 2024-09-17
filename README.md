@@ -30,7 +30,7 @@
 ==========
 1. 下载脚本:
     ```shell
-    wget --no-check-certificate https://raw.githubusercontent.com/quericy/one-key-ikev2-vpn/master/one-key-ikev2.sh
+    wget --no-check-certificate https://raw.githubusercontent.com/velunce/one-key-ikev2-vpn/master/one-key-ikev2.sh
     ```
     * 注:如需使用其他分支的脚本,请将上述url中的master修改为分支名称,各分支区别详见本页的[分支说明](#分支说明)节点
 
@@ -130,7 +130,7 @@
 
 * 部分vps可能会出现无法连接到`https://download.strongswan.org`的情况，此时可以本地下载strongswan文件，然后利用`scp`等工具上传至vps相应目录:
     ```bash
-    wget --no-check-certificate https://download.strongswan.org/strongswan-5.5.1.tar.gz
+    wget --no-check-certificate https://download.strongswan.org/strongswan-5.9.14.tar.gz
     
     scp -P your-vps-port /path/to/file account@your-vps-ip:~
     ```
